@@ -65,6 +65,6 @@ union all select n + 1  from cte_1 where n < 20
 union all select n + 1  from cte_1 where n < 20
 )
 select n, @birthday
-from cte_1 where n <= 100000;
+from cte_1 where n <= 1000000;
 
 
