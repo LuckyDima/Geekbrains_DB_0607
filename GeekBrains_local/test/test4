@@ -1,0 +1,13 @@
+a = ''
+
+
+def check(a):
+    while True:
+        a = input('your answer')
+        if a in ('y', 'q', 'n'):
+            print(a)
+            return False
+        else:
+            continue
+
+check(a)
